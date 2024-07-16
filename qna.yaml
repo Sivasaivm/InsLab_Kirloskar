@@ -1,0 +1,24 @@
+task_description: Teach the Large Language Model about the KIRLOSKAR PUMP type DB
+created_by: IBM Ecosystems Engineering SI Lab
+domain: pumps
+seed_examples:
+- answer: |
+    Pumps Suction pipe, foot valve choked.
+  question: what showuld we do when Pump does not deliver?
+- answer: |
+    Clearance around suction inlet not sufficient.
+  question: Why pump is very noicy?
+- answer: |
+    May be Short circuit in the motor.
+  question: Why Motor gets hot or burns out?
+- answer: |
+    Incorrect choice of pump for existing operating conditions.
+  question: Why Motor is difficult to start?
+- answer: |
+    Insufficient cooling water supply to stuffing box cooling.
+  question: Why Bearing temperature increases?
+document:
+  repo: https://github.com/manojjahgirdar/instructlab-trainingfiles
+  commit: fff568d
+  patterns:
+  - Oppenheimer.md
