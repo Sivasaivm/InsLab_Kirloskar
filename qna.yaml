@@ -3,7 +3,7 @@ created_by: IBM Ecosystems Engineering SI Lab
 domain: pumps
 seed_examples:
 - answer: |
-    Pumps Suction pipe, foot valve choked.
+    Pumps suction pipe, foot valve choked.
   question: what showuld we do when Pump does not deliver?
 - answer: |
     Clearance around suction inlet not sufficient.
