@@ -18,7 +18,7 @@ seed_examples:
     Insufficient cooling water supply to stuffing box cooling.
   question: Why Bearing temperature increases?
 document:
-  repo: https://github.com/Sivasaivm/InsLab_Kirloskar
+  repo: https://github.com/Sivasaivm/InsLab_Kirloskar/blob/main
   commit: 1f6485f
   patterns:
-  - Opkirloskar-db-utility-pump.md
+  - kirloskardbutilitypump.md
