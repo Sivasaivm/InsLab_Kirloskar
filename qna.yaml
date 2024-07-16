@@ -19,6 +19,6 @@ seed_examples:
   question: Why Bearing temperature increases?
 document:
   repo: https://github.com/Sivasaivm/InsLab_Kirloskar
-  commit: fff568d
+  commit: 1f6485f
   patterns:
   - Opkirloskar-db-utility-pump.md
