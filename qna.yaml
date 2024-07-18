@@ -2,23 +2,39 @@ task_description: Teach the Large Language Model about the KIRLOSKAR PUMP type D
 created_by: IBM Ecosystems Engineering SI Lab
 domain: pumps
 seed_examples:
+- context: |
+    Issue: After stopping pump runs in reverse direction, 
+    Reference: 52
+    Issue: Motor will not start, 
+    Reference: 14 22 60
+    Actual Steps Descriptions
+    Reference 14: Delivery liquid too viscous.
+    Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
+    Reference 52 : Non-return valve gets caught.
+    Reference 60 : Short circuit in the motor.
 - answer: |
-    Pumps suction pipe, foot valve choked.
-  question: what showuld we do when Pump does not deliver?
+    Steps to be followed to fix this issue.
+    Reference 14 : Delivery liquid too viscous.
+    Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
+    Reference 60 : Short circuit in the motor.
+  question: what showuld we do when Motor will not start?
+- context: |
+    Issue: Pump rotor locked in standstill position, 
+    Reference : 22 45 46 50
+    Actual Steps Descriptions
+    Reference 45 : Pump casing under stress.  
+    Reference 46 : Pipeline under stress.
+    Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
+    Reference 50 : Rotor parts touching the casing.
 - answer: |
-    Clearance around suction inlet not sufficient.
-  question: Why pump is very noicy?
-- answer: |
-    May be Short circuit in the motor.
-  question: Why Motor gets hot or burns out?
-- answer: |
-    Incorrect choice of pump for existing operating conditions.
-  question: Why Motor is difficult to start?
-- answer: |
-    Insufficient cooling water supply to stuffing box cooling.
-  question: Why Bearing temperature increases?
+    Steps to be followed to fix this issue.
+    Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
+    Reference 45 : Pump casing under stress.  
+    Reference 46 : Pipeline under stress.
+    Reference 50 : Rotor parts touching the casing.
+  question: How do you resolve when Pump rotor locked in standstill position?
 document:
-  repo: https://github.com/Sivasaivm/InsLab_Kirloskar/blob/main
-  commit: 5942cca
+  repo: https://github.com/Sivasaivm/InsLab_Kirloskar
+  commit: 1f6485f
   patterns:
   - kirloskardbutilitypump.md
