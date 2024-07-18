@@ -35,6 +35,6 @@ seed_examples:
   question: How do you resolve when Pump rotor locked in standstill position?
 document:
   repo: https://github.com/Sivasaivm/InsLab_Kirloskar
-  commit: 1f6485f
+  commit: 15942cc
   patterns:
   - kirloskardbutilitypump.md
