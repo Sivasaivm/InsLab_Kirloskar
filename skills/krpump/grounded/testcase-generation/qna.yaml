@@ -12,12 +12,12 @@ seed_examples:
     Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
     Reference 52 : Non-return valve gets caught.
     Reference 60 : Short circuit in the motor.
-- answer: |
+  question: what showuld we do when Motor will not start?
+  answer: |
     Steps to be followed to fix this issue.
     Reference 14 : Delivery liquid too viscous.
     Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
     Reference 60 : Short circuit in the motor.
-  question: what showuld we do when Motor will not start?
 - context: |
     Issue: Pump rotor locked in standstill position, 
     Reference : 22 45 46 50
@@ -26,15 +26,10 @@ seed_examples:
     Reference 46 : Pipeline under stress.
     Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
     Reference 50 : Rotor parts touching the casing.
-- answer: |
+  question: How do you resolve when Pump rotor locked in standstill position?
+  answer: |
     Steps to be followed to fix this issue.
     Reference 22 : Separation of crystals from the flow of pumping liquid falling below the temperature limit/equilibrium temp.
     Reference 45 : Pump casing under stress.  
     Reference 46 : Pipeline under stress.
     Reference 50 : Rotor parts touching the casing.
-  question: How do you resolve when Pump rotor locked in standstill position?
-document:
-  repo: https://github.com/Sivasaivm/InsLab_Kirloskar
-  commit: 15942cc
-  patterns:
-  - kirloskardbutilitypump.md

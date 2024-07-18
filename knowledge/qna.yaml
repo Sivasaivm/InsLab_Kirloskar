@@ -1,0 +1,33 @@
+task_description: Teach the Large Language Model about the KIRLOSKAR PUMP type DB
+created_by: IBM Ecosystems Engineering SI Lab
+domain: pumps
+seed_examples:
+- answer: |
+    Delivery liquid too viscous.
+  question: what showuld we do when Motor will not start?
+- answer: |
+    Rotor parts touching the casing.
+  question: How do you resolve when Pump rotor locked in standstill position?
+- answer: |
+    Insufficient lubrication
+    Bearing failure or excessive bearing wear
+    Blockages or restrictions in the pump or lines causing excessive friction
+    Operation of the pump outside its designed parameters
+  question:  Why might a pump heat up and seize?
+- answer: |
+    A malfunctioning or incorrectly set flow control valve
+    Excessive pump speed
+    Incorrect pump selection for the application
+  question: What might cause a pump to deliver an excessive amount of fluid?
+- answer: |
+    Wear and tear on the impeller or other internal components
+    The buildup of sediment or debris in the pump or lines
+    Inadequate lubrication of bearings or other moving parts
+    Increased viscosity or density of the pumped fluid
+    Cavitation occurring within the pump
+  question: What factors could lead to the deterioration of a pump's delivery performance?
+document:
+  repo: https://github.com/Sivasaivm/InsLab_Kirloskar
+  commit: 5942cca
+  patterns:
+  - kirloskardbutilitypump.md
